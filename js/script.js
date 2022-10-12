@@ -5,13 +5,12 @@
 /**
  * This function gets users first name and age and shows it back to user.
  */
- function enterClicked() {
-    // input
-    const StreetNumber = document.getElementById("Street-Number").value
-    const StreetName = document.getElementById("Street-Name").value
-  
-    // output
-    document.getElementById("address").innerHTML =
-      "Your address is: " + StreetNumber + " " + StreetName + " Longfields."
-  }
-  
+function enterClicked() {
+  // input
+  const StreetNumber = document.getElementById("Street-Number").value
+  const StreetName = document.getElementById("Street-Name").value
+
+  // output
+  document.getElementById("address").innerHTML =
+    "Your address is: " + StreetNumber + " " + StreetName + " Longfields."
+}
