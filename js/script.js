@@ -7,10 +7,10 @@
  */
 function enterClicked() {
   // input
-  const StreetNumber = document.getElementById("Street-Number").value
-  const StreetName = document.getElementById("Street-Name").value
+  const streetNumber = document.getElementById("Street-Number").value
+  const streetName = document.getElementById("Street-Name").value
 
   // output
   document.getElementById("address").innerHTML =
-    "Your address is: " + StreetNumber + " " + StreetName + " Longfields."
+    "Your address is: " + streetNumber + " " + streetName + " Longfields."
 }
