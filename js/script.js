@@ -7,8 +7,8 @@
  */
 function enterClicked() {
   // input
-  const streetNumber = document.getElementById("Street-Number").value
-  const streetName = document.getElementById("Street-Name").value
+  const streetNumber = document.getElementById("street-number").value
+  const streetName = document.getElementById("street-name").value
 
   // output
   document.getElementById("address").innerHTML =
